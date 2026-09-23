@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 0;
+}
+
+nav {
+    background-color: white;
+    padding: 15px 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 25px;
+}
+
+nav a {
+    color: darkblue;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+    font-size: 38px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    font-size: 19px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    color: darkblue;
+    font-size: 28px;
+}
+
+ul {
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+
+li {
+    margin: 12px auto;
+    font-size: 19px;
+    font-weight: bold;
+    background-color: white;
+    padding: 18px;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    max-width: 400px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.button {
+    padding: 12px 24px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: blue;
+    transform: translateY(-2px);
+}
+
+footer {
+    background-color: darkblue;
+    color: white;
+    padding: 18px;
+    text-align: center;
+    margin-top: 35px;
+    border-radius: 8px;
+}
+
+.section-title {
+    margin-top: 35px;
+    margin-bottom: 18px;
+}
+
+.about-text {
+    font-size: 20px;
+    line-height: 1.7;
+    font-style: italic;
+}
+
+.tagline {
+    font-size: 20px;
+    font-style: italic;
+    margin: 15px;
+}
+
+#contact {
+    margin-top: 35px;
+}
+
+#contact + p {
+    margin-bottom: 5px;
+}
+
+h1, h2, p {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 8px;
+    }
+
+    nav {
+        padding: 12px 5px;
+    }
+
+    nav a {
+        font-size: 18px;
+        margin: 0 5px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    li {
+        font-size: 18px;
+        padding: 16px;
+    }
+
+    .button {
+        font-size: 18px;
+        padding: 12px 22px;
+    }
+
+    .about-text,
+    .tagline {
+        font-size: 18px;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+}
